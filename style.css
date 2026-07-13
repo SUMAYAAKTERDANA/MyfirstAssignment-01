@@ -81,6 +81,8 @@
 
 
 /* Secure Your Spot */
+.Secureourspot{text-align: center;
+margin: 35px;}
 
 .threedivhere {
     display: flex;
@@ -89,7 +91,8 @@
 }
 
 .pricing-card {
-    border: 1px solid black;
+    border: 1px solid blue;
+    padding: 15px;
 
 
 }
@@ -103,30 +106,49 @@
  border-radius: 15px;
     padding: 10px 10px;
     height: 50px;
-    width: 150px;
-    color:black
-    text-align: center;
-     border: 1px solid black;
-   
+    width: 250px;
+    margin: 15px;
+    color:blue;
+    text-align: center;  
+     border: 1px solid blue;
 }
 
 .Pro-card {
     border: 1px solid black;
     background-color: #101828;
     color: white;
+    padding: 15px;
+    
 
 }
+
+
 
 .Pro-botton {
     background-color: blue;
+    border-radius: 15px;
+    padding: 10px 10px;
+    height: 50px;
+    width: 250px;
+    margin: 15px;
+    text-align: center;
+     border: 1px solid black;
 
 }
+
+.prostyle{color:rgb(136, 136, 221);}
+
+
+
+
 
 .pro-list {
     list-style-position: inside;
+    li
 }
 
-.team-conten{border: 1px solid black;}
+.team-conten{border: 1px solid blue;
+padding: 15px;}
 
 .team-list {
     list-style-position: inside;
@@ -137,11 +159,12 @@
     border-radius: 15px;
     padding: 10px 10px;
     height: 50px;
-    width: 200px;
-    color:black
-    text-align: center;
+    width: 250px;
+    margin: 15px;
+    color:black ;
+    text-align: center;  
      border: 1px solid black;
-    /* white-space: nowrap;} */
+    
 }
 
 /* chalenging part */
@@ -149,6 +172,7 @@
     background: #101828;
     color: white;
     padding: 80px 20px;
+    margin: 50px;
 }
 
 .hackathon-container {
