@@ -8,6 +8,8 @@
     display: flex;
     justify-content: space-between;
     text-align: center;
+    margin: 20px;
+    padding: 20px;
 }
 
 .nav-center ul {
@@ -39,6 +41,19 @@
     text-align: center;
     margin: 15px;
     padding: 150px;
+}
+
+
+
+.overlay {
+    width: 100%;
+    height: 100%;
+
+    background: rgba(0, 0, 0, .6);
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .h1 {
