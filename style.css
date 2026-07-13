@@ -81,8 +81,10 @@
 
 
 /* Secure Your Spot */
-.Secureourspot{text-align: center;
-margin: 35px;}
+.Secureourspot {
+    text-align: center;
+    margin: 35px;
+}
 
 .threedivhere {
     display: flex;
@@ -101,16 +103,22 @@ margin: 35px;}
     list-style-position: inside;
 }
 
+
+.Standard li::marker {
+    color: blue;
+}
+
+
 .Standard-botton {
-    
- border-radius: 15px;
+
+    border-radius: 15px;
     padding: 10px 10px;
     height: 50px;
     width: 250px;
     margin: 15px;
-    color:blue;
-    text-align: center;  
-     border: 1px solid blue;
+    color: blue;
+    text-align: center;
+    border: 1px solid blue;
 }
 
 .Pro-card {
@@ -118,7 +126,7 @@ margin: 35px;}
     background-color: #101828;
     color: white;
     padding: 15px;
-    
+
 
 }
 
@@ -132,11 +140,13 @@ margin: 35px;}
     width: 250px;
     margin: 15px;
     text-align: center;
-     border: 1px solid black;
+    border: 1px solid black;
 
 }
 
-.prostyle{color:rgb(136, 136, 221);}
+.prostyle {
+    color: rgb(136, 136, 221);
+}
 
 
 
@@ -144,27 +154,36 @@ margin: 35px;}
 
 .pro-list {
     list-style-position: inside;
-    li
+
 }
 
-.team-conten{border: 1px solid blue;
-padding: 15px;}
+.pro-list li::marker {
+    color: blue;
+}
+
+.team-conten {
+    border: 1px solid blue;
+    padding: 15px;
+}
 
 .team-list {
     list-style-position: inside;
 }
 
+.team-list li::marker {
+    color: blue;
+}
 
-.Team-botton { 
+.Team-botton {
     border-radius: 15px;
     padding: 10px 10px;
     height: 50px;
     width: 250px;
     margin: 15px;
-    color:black ;
-    text-align: center;  
-     border: 1px solid black;
-    
+    color: black;
+    text-align: center;
+    border: 1px solid black;
+
 }
 
 /* chalenging part */
