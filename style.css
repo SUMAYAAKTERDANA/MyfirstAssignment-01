@@ -87,12 +87,18 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
 
-
 }
 
 
+.track{color: blue;}
 
 
+.speaker-info{padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+
+;}
 
 
 /* Secure Your Spot */
