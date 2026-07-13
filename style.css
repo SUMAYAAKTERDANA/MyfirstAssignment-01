@@ -58,6 +58,7 @@
 
 .h1 {
     font-size: larger;
+    padding: 15PX;
 }
 
 .banar-botton {
@@ -86,6 +87,7 @@
 .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
 
 }
 
@@ -102,16 +104,24 @@
 
 
 /* Secure Your Spot */
+
+
 .Secureourspot {
     text-align: center;
-    margin: 35px;
+    margin: 40px;
+    padding: 30px;
 }
+
+
 
 .threedivhere {
     display: flex;
     justify-content: center;
     gap: 20px;
 }
+
+
+.Secureourspot-1{padding: 10px;}
 
 .pricing-card {
     border: 1px solid blue;
@@ -253,7 +263,7 @@
 
 
 button {
-    background: #7c3aed;
+    background: blue;
     color: white;
     border: none;
     padding: 15px 35px;
@@ -274,29 +284,50 @@ button:hover {
 
 
 
-/* FOTERSECTION
- */
-footer {
-    background: black;
+/* FOTERSECTION*/
+
+
+.footer{
+    background-color: #0f172a;
     color: white;
-    padding: 30px;
+    padding: 40px 8%;
+}
+
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 28px;
+    font-weight: bold;
+    color: white;
+}
+
+.footer-social a{
+    color: white;
+    font-size: 22px;
+    margin-left: 18px;
+    transition: 0.3s;
+}
+
+.footer-social a:hover{
+    color: #b9cbe8;
+}
+
+.footer hr{
+    margin: 25px 0;
+    border: 1px solid #334155;
+}
+
+.copyright{
     text-align: center;
+    color: #cbd5e1;
+    font-size: 15px;
 }
 
-h2 {
-    margin-bottom: 20px;
-}
 
-a {
-    color: white;
-    text-decoration: none;
-    margin: 10px;
-}
 
-hr {
-    margin: 20px 0;
-}
 
-p {
-    font-size: 14px;
-}
+
