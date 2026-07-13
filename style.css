@@ -39,7 +39,7 @@
     width: 1518px;
     color: white;
     text-align: center;
-    margin: 15px;
+
     padding: 150px;
 }
 
@@ -92,15 +92,19 @@
 }
 
 
-.track{color: blue;}
+.track {
+    color: blue;
+}
 
 
-.speaker-info{padding: 10px 0;
+.speaker-info {
+    padding: 10px 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
 
-;}
+    ;
+}
 
 
 /* Secure Your Spot */
@@ -121,7 +125,9 @@
 }
 
 
-.Secureourspot-1{padding: 10px;}
+.Secureourspot-1 {
+    padding: 10px;
+}
 
 .pricing-card {
     border: 1px solid blue;
@@ -287,47 +293,42 @@ button:hover {
 /* FOTERSECTION*/
 
 
-.footer{
+.footer {
     background-color: #0f172a;
     color: white;
     padding: 40px 8%;
 }
 
-.footer-top{
+.footer-top {
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-.logo{
+.logo {
     font-size: 28px;
     font-weight: bold;
     color: white;
 }
 
-.footer-social a{
+.footer-social a {
     color: white;
     font-size: 22px;
     margin-left: 18px;
     transition: 0.3s;
 }
 
-.footer-social a:hover{
+.footer-social a:hover {
     color: #b9cbe8;
 }
 
-.footer hr{
+.footer hr {
     margin: 25px 0;
     border: 1px solid #334155;
 }
 
-.copyright{
+.copyright {
     text-align: center;
     color: #cbd5e1;
     font-size: 15px;
 }
-
-
-
-
-
